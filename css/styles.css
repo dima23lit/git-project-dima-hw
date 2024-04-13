@@ -120,25 +120,24 @@ img {
 .main-works-item::before {
   content: counter(number);
   font-family: "Inter Tight", sans-serif;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  border-radius: 100%;
-  background-color: #7a3145;
-  border-width: 5px;
-  border-color: rgba(122, 49, 69, 0.3);
-  border-style: solid;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   left: 24px;
   top: 50%;
   transform: translateY(-50%);
+  background-color: #7a3145;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  box-sizing: content-box;
+  outline: 5px solid rgba(122, 49, 69, 0.3);
 }
 
 .main-works-item-wrap {
